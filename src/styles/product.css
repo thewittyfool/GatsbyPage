@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+.head {
+    padding-top: 5rem;
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+}
+#header{
+    font-size: 40px;
+    color: #091e42;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    line-height: 60px;
+}
+
+#para {
+    color: #091e42;
+    line-height: 30px;
+    font-weight: 600;
+    opacity: 0.5;
+    font-family: 'Lato', sans-serif;
+}
+.sign{
+    font-family: 'Lato', sans-serif;
+    background-color: #0065ff;
+    color: white;
+    border: #0065ff;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 14px;
+    width: 160px;
+    margin: auto;
+}
+.signup :hover {
+    background-color: white;
+}
+.board {
+    padding-top: 5rem;
+    width: 1000px;
+}

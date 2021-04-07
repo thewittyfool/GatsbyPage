@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+body{
+   font-family: 'Lato', sans-serif;
+   scroll-behavior: smooth;
+}
+.logo {
+   max-width: 12%;
+   padding: 1rem 1rem;
+}
+.headergrid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.menus{
+    text-align: right;
+    padding-top: 5%;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+.login{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #0065ff;
+    padding: 10px 14px;
+    border: #EEEBFF;
+    font-weight: 600;
+}
+.login:hover {
+    text-decoration: underline;
+}
+.signup{
+    font-family: 'Lato', sans-serif;
+    background-color: #0065ff;
+    color: white;
+    border: #0065ff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 14px;
+}
